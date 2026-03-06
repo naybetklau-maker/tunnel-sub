@@ -1218,10 +1218,7 @@ function getConfigHtml(host, remark, v2, clash) {
     const header = `
         <div class="links">
             <div class="link-row">
-                <a href="${ytName}" target="_blank">🎬 YouTube</a>
-                <a href="${tgName}" target="_blank">💬 Telegram</a>
-                <a href="${ghName}" target="_blank">📂 GitHub</a>
-                <a href="${bName}" target="_blank">🌐 Blog</a>
+
                 <a href="https://${host}/${id}/ips" rel="noopener">⚡ 在线优选IP</a>
                 <a href="https://${host}/${id}/setting" rel="noopener">⚙️ 自定义设置</a>
             </div>
