@@ -1545,10 +1545,7 @@ async function getSettingHtml(host) {
                 <button class="back-btn" onclick="goHome()">🏠 返回主页</button>
             </div>
             <div class="navbar-right">
-                <a href="https://youtube.com/@am_clubs?sub_confirmation=1" target="_blank">🎬 YouTube</a>
-                <a href="https://t.me/am_clubs" target="_blank">💬 Telegram</a>
-                <a href="https://github.com/am-cf-tunnel" target="_blank">📂 GitHub</a>
-                <a href="https://amclubss.com" target="_blank">🌐 Blog</a>
+
             </div>
         </div>
 
@@ -1833,12 +1830,10 @@ function renderPage({ base64Title, suffix = '', heading, bodyContent, ytName, tg
     ${bodyContent}
     <div class="links">
         <div class="link-row">
-            <a href="${ytName}" target="_blank">🎬 YouTube</a>
-            <a href="${tgName}" target="_blank">💬 Telegram</a>
+
         </div>
         <div class="link-row">
-            <a href="${ghName}" target="_blank">📂 GitHub</a>
-            <a href="${bName}" target="_blank">🌐 Blog</a>
+
         </div>
     </div>
     </div>
@@ -2375,10 +2370,7 @@ function htmlPage() {
             <button class="back-btn" onclick="goHome()">🏠 主页</button>
         </div>
         <div class="navbar-right">
-            <a href="https://youtube.com/@am_clubs?sub_confirmation=1" target="_blank">🎬 YouTube</a>
-            <a href="https://t.me/am_clubs" target="_blank">💬 Telegram</a>
-            <a href="https://github.com/am-cf-tunnel" target="_blank">📂 GitHub</a>
-            <a href="https://amclubss.com" target="_blank">🌐 Blog</a>
+
         </div>
     </div>
     <span id="cf-check" style="font-size:0.9em;"></span>
